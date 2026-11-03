@@ -68,3 +68,28 @@ h2 {
   max-width: 700px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* Button and Link Hover Effects for Final Polish */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
