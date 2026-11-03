@@ -1,0 +1,31 @@
+/* 1. Universal Selector (*) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Element Selector (h1) */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1e3a8a;
+}
+
+/* 3. ID Selector (#hero) */
+#hero {
+  background-color: #93c5fd;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 4. Class Selector (.card) */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 700px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
