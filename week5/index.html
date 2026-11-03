@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech Club events, workshops and student registration">
+    <meta name="author" content="Mayank Tripathi">
+    <title>Tech Club</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    
+<header>
+    <h1>Tech Club</h1>
+
+    <nav>
+        <a href="Home.html">Home</a> |
+        <a href="About.html">About</a> |
+        <a href="TechClub.html">Register</a> |
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+
+
+<!-- Task 4.1: Registration Form -->
+
+<section id="register">
+    <h2>Tech Club Registration</h2>
+
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        
+<!-- Task 4.2: Additional Form Elements -->
+
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob" required>
+<br><br>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" required>
+<br><br>
+
+<p>Choose your year:</p>
+
+<input type="radio" id="first" name="year" value="First Year">
+<label for="first">First Year</label>
+
+<input type="radio" id="second" name="year" value="Second Year">
+<label for="second">Second Year</label>
+
+<input type="radio" id="third" name="year" value="Third Year">
+<label for="third">Third Year</label>
+<br><br>
+
+<p>Select your interests:</p>
+
+<input type="checkbox" id="coding" name="interests" value="Coding">
+<label for="coding">Coding</label>
+
+<input type="checkbox" id="robotics" name="interests" value="Robotics">
+<label for="robotics">Robotics</label>
+
+<input type="checkbox" id="web" name="interests" value="Web Development">
+<label for="web">Web Development</label>
+<br><br>
+
+<label for="event">Choose an event:</label>
+<select id="event" name="event">
+    <option value="">Select an event</option>
+    <option value="Hackathon">Hackathon</option>
+    <option value="Coding Contest">Coding Contest</option>
+    <option value="Web Development Workshop">Web Development Workshop</option>
+</select>
+<br><br>
+
+<label for="message">Why do you want to join Tech Club?</label>
+<br>
+<textarea id="message" name="message" rows="4" cols="40"></textarea>
+<br><br>
+
+<button type="submit">Register</button>
+
+
+    </form>
+</section>
+
+
+<!-- Task 4.3: Events Table -->
+
+<section id="events">
+    <h2>Upcoming Tech Club Events</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Hackathon</td>
+                <td>15 November 2026</td>
+                <td>Computer Lab</td>
+            </tr>
+            <tr>
+                <td>Coding Contest</td>
+                <td>20 November 2026</td>
+                <td>Room 101</td>
+            </tr>
+            <tr>
+                <td>Web Development Workshop</td>
+                <td>25 November 2026</td>
+                <td>Seminar Hall</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Events: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+</body>
+</html>
