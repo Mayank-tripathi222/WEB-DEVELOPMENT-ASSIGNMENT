@@ -1,0 +1,91 @@
+
+/* Task 6.1 - CSS Box Model */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.box-demo {
+    width: 350px;
+    background-color: lightblue;
+
+    padding: 25px;
+
+    border: 5px solid blue;
+
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+
+/* Task 6.2 - Profile Cards */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 40px auto;
+}
+
+.profile-card {
+    width: 280px;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.profile-card h2 {
+    margin-top: 15px;
+}
+
+.blue-card {
+    background-color: #dbeafe;
+    border-color: #2563eb;
+}
+
+.purple-card {
+    background-color: #f3e8ff;
+    border-color: #9333ea;
+}
+
+.green-card {
+    background-color: #dcfce7;
+    border-color: #16a34a;
+}
+
+
+/* Task 6.3 - Scrollable Bio Box */
+
+.bio-box {
+    height: 100px;
+    overflow: auto;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5;
+}
