@@ -77,3 +77,30 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Task 7.3 - Cards using Flexbox */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    flex: 1 1 200px;
+    background-color: #f1f5f9;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #475569;
+    line-height: 1.5;
+}
