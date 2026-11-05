@@ -1,4 +1,5 @@
 
+/* Common Styling */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Task 7.1 - Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -36,4 +38,42 @@ body {
 }
 
 .nav-right button {
-    background-color: #38
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Task 7.2 - Centered Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #dbeafe;
+    min-height: 400px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: #1e293b;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #475569;
+}
+
+.banner button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
