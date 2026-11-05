@@ -104,3 +104,31 @@ body {
     color: #475569;
     line-height: 1.5;
 }
+/* Task 7.4 - Landing Page Styling */
+
+.navbar {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    min-height: 450px;
+}
+
+.banner h1 {
+    margin-bottom: 5px;
+}
+
+.cards-container {
+    width: 100%;
+    background-color: #f8fafc;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
