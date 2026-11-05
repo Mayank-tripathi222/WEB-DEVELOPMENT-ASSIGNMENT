@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     padding: 30px;
+    margin: 0;
 }
 
 h1 {
@@ -16,19 +17,16 @@ h1 {
     color: #333;
 }
 
+/* Box Model Demo */
+
 .box-demo {
     width: 350px;
     background-color: lightblue;
-
     padding: 25px;
-
     border: 5px solid blue;
-
     margin: 40px auto;
-
     text-align: center;
 }
-
 
 /* Task 6.2 - Profile Cards */
 
@@ -46,10 +44,9 @@ h1 {
     border: 2px solid;
     border-radius: 20px;
     text-align: center;
-    box-sizing: border-box;
 }
 
-.profile-card img {
+.profile-avatar {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -60,6 +57,8 @@ h1 {
 .profile-card h2 {
     margin-top: 15px;
 }
+
+/* Profile Card Colour Versions */
 
 .blue-card {
     background-color: #dbeafe;
@@ -76,8 +75,7 @@ h1 {
     border-color: #16a34a;
 }
 
-
-/* Task 6.3 - Scrollable Bio Box */
+/* Task 6.3 - Scrollable Bio */
 
 .bio-box {
     height: 100px;
@@ -90,8 +88,7 @@ h1 {
     line-height: 1.5;
 }
 
-
-/* Task 6.4 - Sticky Navbar */
+/* Task 6.4 - Sticky Navigation Bar */
 
 .navbar {
     position: sticky;
@@ -121,7 +118,7 @@ h1 {
     font-weight: bold;
 }
 
-/* Fixed Floating Plus Button */
+/* Fixed Floating Button */
 
 .floating-btn {
     position: fixed;

@@ -7,21 +7,20 @@
     <title>Week 6 - Profile Card</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body>
-    
-<!-- Task 6.4 - Sticky Navbar -->
+<body id="home">
 
-<nav class="navbar">
-    <h2>My Profile Website</h2>
+    <!-- Task 6.4 - Sticky Navbar -->
+    <nav class="navbar">
+        <h2>My Profile Website</h2>
 
-    <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#profiles">Profiles</a>
-        <a href="#about">About</a>
-    </div>
-</nav>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#profiles">Profiles</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
 
-
+    <!-- Task 6.1 - Box Model -->
     <h1>CSS Box Model</h1>
 
     <div class="box-demo" id="about">
@@ -31,14 +30,13 @@
     </div>
 
     <!-- Task 6.2 - Profile Cards -->
-
     <h1>My Profile Cards</h1>
 
     <div class="profile-container" id="profiles">
 
         <!-- Blue Profile Card -->
         <div class="profile-card blue-card">
-            <img src="mayank.jpg" width="200" alt="Mayank Profile Photo">
+            <img src="mayank.jpg" class="profile-avatar" alt="Mayank Profile Photo">
             <h2>Mayank Tripathi</h2>
             <h3>B.Tech CSE Student</h3>
 
@@ -52,7 +50,7 @@
 
         <!-- Purple Profile Card -->
         <div class="profile-card purple-card">
-            <img src="mayank.jpg" width="200" alt="Mayank Profile Photo">
+            <img src="mayank.jpg" class="profile-avatar" alt="Mayank Profile Photo">
             <h2>Mayank Tripathi</h2>
             <h3>Web Developer</h3>
 
@@ -65,7 +63,7 @@
 
         <!-- Green Profile Card -->
         <div class="profile-card green-card">
-            <img src="mayank.jpg" width="200" alt="Mayank Profile Photo">
+            <img src="mayank.jpg" class="profile-avatar" alt="Mayank Profile Photo">
             <h2>Mayank Tripathi</h2>
             <h3>Aspiring Software Developer</h3>
 
@@ -78,12 +76,10 @@
 
     </div>
 
-
-<!-- Fixed Floating Button -->
-
-<button class="floating-btn" title="Add New Profile">
-    +
-</button>
+    <!-- Task 6.4 - Fixed Floating Button -->
+    <button class="floating-btn" title="Add New Profile">
+        +
+    </button>
 
 </body>
 </html>
