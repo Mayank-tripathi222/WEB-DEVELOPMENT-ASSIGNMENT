@@ -132,3 +132,33 @@ body {
 .card:hover {
     transform: translateY(-5px);
 }
+/* Task 7.5 - Mobile Responsive Design */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-right {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .banner {
+        min-height: 400px;
+        padding: 20px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .cards-container {
+        padding: 20px;
+    }
+
+}
